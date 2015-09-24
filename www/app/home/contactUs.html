@@ -1,0 +1,48 @@
+<ion-view title="Get involved">
+    <ion-header-bar class="bar bar-header bar-assertive">
+        <h1 class="title">ACTS</h1>
+    </ion-header-bar>
+    <ion-content class="has-header">
+        <form>
+            <div class="list">
+                <label class="item item-input">
+                    <span class="input-label">Name</span>
+                    <input type="text">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Email</span>
+                    <input type="text">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Subject</span>
+                    <input type="text">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Message</span>
+                    <textarea></textarea>
+                </label>
+            </div>
+            <div class="padding">
+                <button class="button button-block button-positive activated">Send</button>
+            </div>
+            <div class="list card">
+                <div class="item item-divider">
+                    Sunday Service Times
+                </div>
+                <div class="item item-text-wrap" style="color: #E04C11;">
+                    South Campus (Vorna Valley) <br>
+                    8:30am and 10:30am
+
+                    <ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>
+                </div>
+                <div class="item item-text-wrap">
+                    North Campus (Glen Austin) <br>
+                    8:30am and 10:30am
+
+                    <ui-gmap-google-map center='northCampus.center' zoom='northCampus.zoom'></ui-gmap-google-map>
+
+                </div>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

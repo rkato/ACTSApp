@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+
+.item-avatar i:first-child, .item-avatar .item-img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 36px;
+    max-width: 40px;
+    max-height: 40px;
+    width: 100%;
+    border-radius: 8px; }
+
+.angular-google-map-container { height: 400px; }
